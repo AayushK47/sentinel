@@ -1,0 +1,28 @@
+{
+  "name": "@dwa/sentinel",
+  "version": "1.0.0",
+  "description": "A lightweight, extensible RBAC and JWT authorization middleware for Node.js, guarding your app with attitude.",
+  "keywords": [
+    "auth",
+    "rbac"
+  ],
+  "homepage": "https://github.com/AayushK47/sentinel#readme",
+  "bugs": {
+    "url": "https://github.com/AayushK47/sentinel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AayushK47/sentinel.git"
+  },
+  "license": "ISC",
+  "author": "Aayush Kurup",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
