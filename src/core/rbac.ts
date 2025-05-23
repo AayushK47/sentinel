@@ -1,8 +1,7 @@
-// src/core/rakshak.ts
 import { validate } from 'class-validator';
 import { plainToInstance } from 'class-transformer';
-import { RbacConfigDTO } from '../validators/rbac';
-import { Permission, RbacConfig } from '../types/rbac';
+import { RbacConfigDTO } from '@sentinel/validators';
+import { Permission, RbacConfig } from '@sentinel/types';
 
 export class Rbac {
   private constructor(private roles: Map<string, Permission[]>) { }

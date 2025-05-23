@@ -3,7 +3,7 @@ export interface Permission {
   resource: string;
 }
 
-export class Role {
+export interface Role {
   name: string;
   permissions: Permission[];
 }

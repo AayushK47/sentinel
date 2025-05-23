@@ -15,12 +15,18 @@
     "strictPropertyInitialization": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "incremental": true,
+    "baseUrl": "./",
     "paths": {
-      "@sentinel/core/*": ["./src/core/*"],
-      "@sentinel/types/*": ["./src/types/*"],
-      "@sentinel/validators/*": ["./src/validators/*"]
+      "@sentinel/core": ["src/core/index.ts"],
+      "@sentinel/core/*": ["src/core/*"],
+      "@sentinel/types": ["src/types/index.ts"],
+      "@sentinel/types/*": ["src/types/*"],
+      "@sentinel/validators": ["src/validators/index.ts"],
+      "@sentinel/validators/*": ["src/validators/*"]
     }
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "exclude": ["node_modules", "src/__tests__"]
+
 }
