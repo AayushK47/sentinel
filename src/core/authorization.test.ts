@@ -16,7 +16,7 @@ describe('Authorization', () => {
     it('should generate a valid token', () => {
     const token = auth.generateToken({ sub: '123', role: 'admin' });
     expect(typeof token).toBe('string');
-    expect(token.split('.').length).toBe(3); // JWTs have 3 parts
+    expect(token.split('.').length).toBe(3);
   });
 
   it('should verify a valid token', () => {
